@@ -1,0 +1,300 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+.header_bg {
+    height: 100vh;
+    width: 100%;
+}
+
+.header_picture {
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+    z-index: -1;
+}
+
+.header_container {
+    height: 46vh;
+    width: 100%;
+    color: chartreuse;
+}
+
+.header_height_1_child_40 {
+    height: 40%;
+}
+
+.header_height_2_child_60 {
+    height: 60%;
+}
+
+.header-logo-container {
+    position: absolute;
+    left: 10vh;
+    top: 5vh
+}
+
+.header-logo {
+    width: 50px; 
+    height: 50px; 
+}
+
+.header-phone-icon {
+    width: 18px; 
+    height: 18px; 
+}
+
+.header-title-container {
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header_title {
+    color: white;
+    font-size: 6.5em;
+}
+
+.header_title_subline {
+    font-size: 2.5em;
+    color: gray;
+}
+
+.header_nav_bar {
+    right: 10vh;
+    top: 5vh;
+}
+
+#header_element a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin: 16px;
+}
+
+#header_element a:hover {
+    text-decoration: underline;
+}
+
+.telephone_number {
+    background-color: rgba(255, 0, 0, 1);
+    padding: 15px;
+    border-radius: 10px;
+    border: solid white 2px;
+}
+
+.section_heading {
+    font-size: 5em;
+    color: rgb(151, 14, 22);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.full_width {
+    width: 100%;
+}
+
+.bg_order {
+    margin-bottom: 5vh;
+}
+
+.order_divide {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.order-textbox {
+    font-size: 1.5em;
+}
+
+.order-icons-size{
+    width: 100px;
+    height: 100px;
+}
+
+#textOrderDivide p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg-menu {
+    background-image: url('./../img/Menu_bg.png');
+    width: 100%;
+    padding-bottom: 10vh;
+}
+
+.menu_divide {
+    display: flex;
+}
+
+.menu-ramen-title {
+    font-size: 3.0em
+}
+
+.menu-ingridients-container {
+    height: 100%;
+}
+
+.menu_ingredient_font {
+    font-size: 1.5em;
+    color: gray;
+}
+
+.menu-ramen-image-size {
+    width: 350px;
+    height: 350px; 
+}
+
+.menu-ramen-left-container {
+    display: flex;
+}
+
+.menu-ramen-right-container {
+    display: flex;
+}
+
+.menu-ramen-left-part-margin {
+    margin-left: 20vh;
+    /*margin-right: 3vh;*/
+}
+
+.menu-ramen-right-part-margin {
+    margin-right: 25vh;
+}
+
+.menu_width_child_1 {
+    width: 47%;
+}
+
+.menu_width_child_2 {
+    width: 53%;
+}
+
+.menu_dishes_margin_bottom {
+    margin-bottom: 5vh;
+}
+
+.bg_find_us_at {
+    width: 100%;
+    margin-bottom: 5vh;
+    padding: 0;
+}
+
+.find_us_at_location_picture {
+    float: left;
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.find-us-at-textbox {
+    font-size: 1.5em;
+}
+
+.address_margin-bottom {
+    margin-bottom: 5vh;
+}
+
+.bg_footer {
+    margin-bottom: 5vh;
+}
+
+.footer_text {
+    font-size: 2em;
+    margin: 0;
+    margin-left: 5vh;
+}
+
+.footer-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon-size {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-icon {
+    margin-left: 10vh;
+}
+
+.footer-social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.setZeroPaddingMargin {
+    padding: 0;
+    margin: 0;
+}
+
+.float-right {
+    float: right;
+}
+
+.display_flex {
+    display: flex;
+}
+
+.sakura_red {
+    color: rgb(151, 14, 22);
+}
+
+.child_1_half {
+    width: 50%;
+}
+
+.child_2_half {
+    width: 50%;
+}
+
+.full_height {
+    height: 100%;
+}
+
+.child_1_height_30 {
+    height: 30%;
+}
+
+.child_2_height_70 {
+    height: 70%;
+}
+
+.min_hight_30 {
+    min-height: 30%;
+}
+
+.menu-ingridients-prices {
+    text-align: right;
+}
+
+.font_raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.font_economica {
+    font-family: 'Economica', sans-serif;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}

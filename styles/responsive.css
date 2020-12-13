@@ -1,0 +1,109 @@
+/* For Smartphones */
+
+@media(max-width: 900px) {
+    #header-navBar {
+        display: none;
+    }
+    .header-logo-container {
+        left: 5vh;
+    }
+    .header-logo {
+        width: 40px;
+        height: 40px;
+    }
+    .header_title {
+        font-size: 2.8em;
+        margin-bottom: 15px;
+    }
+    .header_title_subline {
+        font-size: 1.5em;
+    }
+    .order-icons-size {
+        width: 80px;
+        height: 80px;
+    }
+    .section_heading {
+        font-size: 3em;
+    }
+    .menu-ramen-right-container {
+        flex-direction: column-reverse;
+    }
+    .menu-ramen-left-container {
+        flex-direction: column;
+    }
+    .menu-ramen-left-part-margin {
+        margin-left: 0;
+    }
+    .menu-ramen-right-part-margin {
+        margin-right: 0;
+    }
+    .menu_width_child_1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .menu_width_child_2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .menu-ramen-image-size {
+        width: 300px;
+        height: 300px; 
+    }
+    .menu-ingridients-container {
+        width: 100%;
+    }
+    .bg-menu {
+        padding-bottom: 5vh;
+    }
+    .menu-ramen-title {
+        margin-top: 1.5vh;
+        text-align: center;
+    }
+    .menu-ingridients-prices-fullTable {
+        text-align: center;
+        border-spacing: 2px 10px;
+    }
+    .menu-ingridients-prices {
+        text-align: unset;
+    }
+    .find-us-at-textbox {
+        font-size: 1.0em;
+    }
+    .footer-icon {
+        margin-left: 2vh;
+    }
+    .footer_text {
+        font-size: 1em;
+        margin-left: 1vh;
+    }
+    .footer-icon-size {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+/* For tablets  */
+
+@media screen and (max-width: 1300px) and (min-width: 901px) {
+    .order-textbox {
+        font-size: 2.0em;
+    }
+    .menu-ramen-left-part-margin {
+        margin-left: 5vh;
+    }
+    .menu-ramen-right-part-margin {
+        margin-right: 5vh;
+    }
+    .menu_ingredient_font {
+        font-size: 2em;
+    }
+    .menu-ramen-title {
+        font-size: 4em;
+    }
+    .find-us-at-textbox {
+        font-size: 2em;
+    }
+}
